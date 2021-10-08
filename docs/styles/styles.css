@@ -206,7 +206,6 @@ header .titles {
 
 @keyframes scroll-down {
     0% {
-        /* top:20%; */
         opacity: 0;
     }
     30% {
@@ -244,11 +243,10 @@ header .titles {
     padding: auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .titulo {
-    margin: 25px;
+    margin-bottom: 25px;
 }
 
 .type {
@@ -282,15 +280,6 @@ header .titles {
 
 h6>a {
     color: #ffa600;
-}
-
-.type>p {
-    padding: 25px;
-    margin-bottom: 10px;
-    margin-top: 25px;
-    text-align: center;
-    align-items: center;
-    font-size: 2em;
 }
 
 .type>img {
@@ -531,11 +520,30 @@ footer {
     height: 50%;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
+    .contenedor {
+        border-bottom: 0;
+        padding: 2% 15%;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .works {
+        display: inline;
+    }
+    .type {
+        position: relative;
+        width: 75%;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        display: inline;
+    }
     .float {
         position: fixed;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         bottom: 50px;
         left: 20px;
         background-color: #25d366;
