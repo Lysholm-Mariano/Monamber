@@ -487,29 +487,6 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-.float-whatsapp {
-    align-items: center;
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 125px;
-    left: 40px;
-    background-color: #ffffff;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 2px 3px rgb(117, 117, 117);
-    z-index: 100;
-}
-
-.whatsapp {
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    height: 50%;
-}
-
 .float-whatsapp:hover {
     position: fixed;
     background-color: hsla(325, 100%, 82%, 0.25);
@@ -547,8 +524,11 @@ footer {
     z-index: 100;
 }
 
-.my-float {
-    margin-top: 16px;
+.whatsapp {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    height: 50%;
 }
 
 @media screen and (max-width:600px) {
